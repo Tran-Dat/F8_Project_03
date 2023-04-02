@@ -31,7 +31,6 @@ body {
 }
 
 .logo {
-    position: relative;
     font-size: 1rem;
 }
 
@@ -49,9 +48,6 @@ body {
 }
 
 .logo__circle::after {
-    position: absolute;
-    top: 1.1em;
-    left: 1.1em;
     width: 1.6em;
     height: 1.6em;
     background: #fff;

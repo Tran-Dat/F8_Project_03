@@ -43,6 +43,7 @@ body {
 }
 
 .logo__circle::before {
+    position: absolute;
     width: 3em;
     height: 3em;
     background: #2e80ce;
@@ -50,8 +51,6 @@ body {
 
 .logo__circle::after {
     position: absolute;
-    top: 1.1em;
-    left: 1.1em;
     width: 1.6em;
     height: 1.6em;
     background: #fff;
