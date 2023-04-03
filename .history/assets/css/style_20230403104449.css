@@ -218,7 +218,7 @@ a {
 
 .hero__img:first-child {
     position: relative;
-    margin-right: -6px;
+    right: -6px;
 }
 
 .hero__img:last-child {

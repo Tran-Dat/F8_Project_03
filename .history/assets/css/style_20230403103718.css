@@ -160,10 +160,8 @@ a {
 .hero {
     margin-top: 76px;
     display: flex;
-    align-items: center;
 }
 
-/*           Hero content             */
 .hero__content {
     flex-shrink: 0;
     width: 44%;
@@ -193,35 +191,12 @@ a {
 
 .hero__phone {
     margin-left: 38px;
+    font-weight: 400;
     font-size: 1.8rem;
     line-height: 1.67;
     color: #ffffff;
 }
 
-/*           Hero media             */
 .hero__media {
     flex-grow: 1;
-}
-
-.hero__images {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.hero__img {
-    width: 330px;
-    height: 540px;
-    border-radius: 6px;
-    object-fit: cover;
-}
-
-.hero__img:first-child {
-    position: relative;
-    margin-right: -6px;
-}
-
-.hero__img:last-child {
-    width: 210px;
-    height: 410px;
 }
