@@ -58,7 +58,6 @@ a {
 }
 
 .section-desc {
-    margin-top: 18px;
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 1.67;
@@ -517,12 +516,11 @@ a {
 /* ========================================== Install =========================================== */
 
 .install {
-    margin-top: 180px;
+    margin-top: 85px;
 }
 
 .install__inner {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background: #2e80ce;
     border-radius: 4px;
@@ -535,27 +533,4 @@ a {
     height: 522px;
     object-fit: cover;
     margin-top: -95px;
-}
-
-.install__content {
-    max-width: 586px;
-}
-
-.install__heading,
-.install__desc {
-    color: #ffffff;
-}
-
-.install__heading {
-    max-width: 489px;
-}
-
-.install__desc {
-    max-width: 586px;
-}
-
-.install__row {
-    display: flex;
-    column-gap: 28px;
-    margin-top: 38px;
 }
