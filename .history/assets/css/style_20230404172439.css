@@ -802,7 +802,6 @@ button {
     border: 1px solid #406181;
     border-radius: 4px;
     background: transparent;
-    color: #fff;
 }
 
 .footer-form__input::placeholder {
