@@ -702,6 +702,6 @@ a {
 
 .appointment__desc {
     max-width: 617px;
-    margin: 18px auto 48px;
+    margin: 0 auto;
     font-size: 1.6rem;
 }
