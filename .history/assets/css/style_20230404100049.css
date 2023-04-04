@@ -613,12 +613,7 @@ a {
 }
 
 .news-item:hover {
-    transform: translateY(-15px);
-    box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.05);
-}
-
-.news-item:hover .news-item__body {
-    border-color: #fff;
+    box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.5);
 }
 
 .news-item__thumb {
@@ -635,7 +630,6 @@ a {
     border-top: none;
     background: #ffffff;
     border-radius: 0 0 12px 12px;
-    transition: 0.25s;
 }
 
 .news-item__heading {
